@@ -14,5 +14,5 @@ include("${CMAKE_SOURCE_DIR}/BoostDownloader.cmake")
 
 target_link_libraries(${PROJECT_NAME} PRIVATE Boost::program_options)
 target_include_directories(${PROJECT_NAME}
-    PUBLIC ${Boost_INCLUDE_DIR}
+    PUBLIC ${Boost_INCLUDE_DIRS}
 )

@@ -13,4 +13,4 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(Boost)
 
-file(GLOB Boost_INCLUDE_DIR LIST_DIRECTORIES true ${Boost_SOURCE_DIR}/libs/*/include)
+file(GLOB Boost_INCLUDE_DIRS LIST_DIRECTORIES true ${Boost_SOURCE_DIR}/libs/*/include)
